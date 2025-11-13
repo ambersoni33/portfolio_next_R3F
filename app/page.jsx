@@ -1,7 +1,9 @@
+import { CanvasHero } from "./components/CanvasHero";
+
 const Home = ()=>{
     return(
-        <div>
-            <h1>Hello PortFolio</h1>
+        <div className="h-screen w-full absolute top-0 left-0 -z-10">
+            <CanvasHero />
         </div>
     )
 }
